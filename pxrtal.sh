@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 cat << "EOF"
 
   _______   _______ _______       _         ____   _____ 
@@ -25,11 +24,14 @@ echo "6) Show Memory Usage"
 echo "7) Show CPU Information"
 echo "8) List Network Connections"
 echo "9) Clear Cache"
+echo "10) Check Drivers"
+echo "11) Sound Settings"
 echo "-------------------------"
-echo "1) PXRTAL OS Website"
-echo "2) PXRTAL OS Github"
-echo "3) About"
-echo "4) Help"
+echo "12) Pxrtal OS Website"
+echo "13) Pxrtal OS Github"
+echo "14) About"
+echo "15) Help"
+echo "16) Exit"
 echo ""
 
 # Taking selection from the main menu
@@ -99,30 +101,35 @@ case $choice in
     sudo sync; sudo echo 3 > /proc/sys/vm/drop_caches
     echo "Cache cleared successfully."
     ;;
-  *)
-    echo "Invalid option."
+  10)
+    echo "Checking Drivers:"
+    sudo lshw -C display
     ;;
-esac
-
-echo "-------------------------"
-read -p "Please enter a choice from the submenu: " sub_choice
-
-case $sub_choice in
-  1)
-    echo "Opening PXRTAL OS Website..."
+  11)
+    echo "Sound Settings:"
+    alsamixer
+    ;;
+  -------------------------
+  12)
+    echo "Opening Pxrtal OS Website..."
     xdg-open "https://www.pxrtallinux.org" 2>/dev/null || echo "Unable to open web browser."
     ;;
-  2)
-    echo "Opening PXRTAL OS Github page..."
+  13)
+    echo "Opening Pxrtal OS Github page..."
     xdg-open "https://github.com/root0emir" 2>/dev/null || echo "Unable to open web browser."
     ;;
-  3)
-    echo "For information about PXRTAL OS, type 'about' in the terminal."
+  14)
+    echo "For information about Pxrtal OS, type 'about' in the terminal."
     ;;
-  4)
-    echo "For help with PXTRAL OS, type 'help' in the terminal."
+  15)
+    echo "For help with Pxrtal OS, type 'help' in the terminal."
+    ;;
+  16)
+    echo "Exiting..."
+    exit 0
     ;;
   *)
     echo "Invalid option."
     ;;
 esac
+``` ▋

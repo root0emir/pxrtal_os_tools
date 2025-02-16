@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# PXRTAL OS özel komutlar listesi
+# PXRTAL OS command list
 commands=(
     "pxrtal: System manager tool"
     "pxrtalmarket: Software market for PXRTAL OS"
@@ -8,10 +8,10 @@ commands=(
     "about: About PXRTAL OS"
     "help: Help command for PXRTAL OS"
     "donate: Donate link for PXRTAL OS"
-    "pxrtalbackup: Backup tool for PXRTAL OS"
+    
 )
 
-echo "PXRTAL OS Special Commands:"
+echo "Pxrtal OS Special Commands:"
 echo "--------------------------"
 
 
@@ -20,4 +20,4 @@ for cmd in "${commands[@]}"; do
 done
 
 echo "--------------------------"
-echo "Use the above commands to manage your PXRTAL OS system."
+echo "Use the above commands to manage your Pxrtal OS system."

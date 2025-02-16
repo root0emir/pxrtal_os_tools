@@ -3,7 +3,7 @@
 # Note: This script should be run with sudo privileges on Debian-based systems.
 # 
 
-# Emka Market ASCII Art
+
 cat << "EOF"
 
  ______  ______ _____  _    _       __  __    _    ____  _  _______ _____ 
@@ -12,12 +12,12 @@ cat << "EOF"
 |  __//  \|  _ < | |/ ___ \| |___  | |  | |/ ___ \|  _ <| . \| |___  | |  
 |_|  /_/\_\_| \_\|_/_/   \_\_____| |_|  |_/_/   \_\_| \_\_|\_\_____| |_|  
                                                              
-                   PXRTAL OS Software Market
+                   Pxrtal OS Software Market
                                                                                                    
 EOF
 
 echo "------------------"
-echo "PXRTAL OS Software Market - Make a choice"
+echo "Pxrtal OS Software Market - Make a choice"
 echo "------------------"
 echo "1) Cyber Security Packages"
 echo "2) Music Production Packages"
