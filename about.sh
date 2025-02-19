@@ -15,7 +15,7 @@ For more information and community support, visit:
 - [PXRTAL OS Website](comingsoon)
 - [PXRTAL OS GitHub](https://github.com/root0emir)
 
-To get a list of available Pxrtal OS commands, type `pxrtal-commands` in the terminal.
+To get a list of available Pxrtal OS commands, type `pxrtalcommands` in the terminal.
 
 Thank you for choosing Pxrtal OS. Have a great experience!
 EOF

@@ -17,7 +17,7 @@ cat << "EOF"
 EOF
 
 echo "------------------"
-echo "Pxrtal OS Software Market - Make a choice"
+echo "Have a nice day!"
 echo "------------------"
 echo "1) Cyber Security Packages"
 echo "2) Music Production Packages"

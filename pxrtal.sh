@@ -13,7 +13,7 @@ cat << "EOF"
 EOF
 
 echo "------------------"
-echo "\"Welcome Have a nice day!\""
+echo "\"Have a nice day!\""
 echo "------------------"
 echo "1) Update the System"
 echo "2) System Information"
