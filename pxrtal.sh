@@ -109,7 +109,6 @@ case $choice in
     echo "Sound Settings:"
     alsamixer
     ;;
-  -------------------------
   12)
     echo "Opening Pxrtal OS Website..."
     xdg-open "https://www.pxrtallinux.org" 2>/dev/null || echo "Unable to open web browser."
